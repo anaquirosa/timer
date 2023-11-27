@@ -1,0 +1,74 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(imagenes/hojas.jpg) no-repeat center center/ cover; 
+}
+    
+
+/* Contenedores */
+
+.container-main {
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.831);
+    border-radius: 10px;
+}
+
+.container-buttons {
+    padding: 20px;
+}
+
+
+/* Cronometro */
+
+#timer {
+    width: 100%;
+    font-size: 80px;
+    font-weight: 400;
+    user-select: none;
+    font-family: 'Gabarito', sans-serif;
+}
+
+
+/* Botones */
+
+.button {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#button-start-pause.start, 
+#button-start-pause.start i {
+    background-color: #08e008;
+    border: 0px;
+}
+
+#button-start-pause.pause, 
+#button-start-pause.pause i {
+    background-color: #ffdc00;
+    border: 0px;
+}
+
+#button-restart {
+    background-color: red;
+    border: 0px;
+}
